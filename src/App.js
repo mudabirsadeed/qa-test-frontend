@@ -46,7 +46,7 @@ function App() {
     const fetchTasks = async () => {
       try {
         console.log("fetchTasks");
-        const res = await axios.get("/task/getTask", {
+        const res = await axios.get("/shift/getShift", {
           headers: {
             Authorization: `Bearer ${userToken}`
           }
