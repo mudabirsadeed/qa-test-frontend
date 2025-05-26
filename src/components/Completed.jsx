@@ -17,7 +17,7 @@ function Completed() {
                         )
                     })
                 ) : (
-                    <h1>No Task Found</h1>
+                    <h1>No Shifts Found</h1>
                 )
             }
         </div>

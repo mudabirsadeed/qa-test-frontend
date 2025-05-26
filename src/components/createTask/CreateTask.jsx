@@ -72,7 +72,7 @@ function CreateTask() {
                         <button
                             type='submit'
                             className=' bg-blue-700 rounded-md text-white px-5 py-1 '
-                        >Add</button>
+                        >Post Shift</button>
                     </div>
                 </form>
                 <div className="toast bg-green-600 text-white p-3 rounded-xl shadow-2xl text-center absolute bottom-4 left-1/2 -translate-x-1/2" id='toast'>
