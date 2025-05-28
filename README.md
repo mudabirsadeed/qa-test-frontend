@@ -83,4 +83,5 @@ npm install newman-reporter-html --save-dev
 ```bash
 npm run test:backend
 ```
+Test report generated and placed in root directory as report.html
 
