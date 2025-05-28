@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Running Backend API tests via Newman
+## Prerequisites
+
+- Node.js and npm installed
+
+## Installation
+
+Install Newman and the HTML reporter:
+
+```bash
+npm install newman --save-dev
+npm install newman-reporter-html --save-dev
+```
+
+## Run
+```bash
+npm run test:backend
+```
+
